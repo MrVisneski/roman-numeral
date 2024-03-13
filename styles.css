@@ -1,0 +1,78 @@
+:root {
+    --jet: #2a2b2eff;
+    --davys-gray: #5a5a66ff;
+    --cambridge-blue: #a4c2a8ff;
+    --light-green: #aceb98ff;
+    --screamin-green: #87ff65ff;
+  }
+  
+  body {
+    background-color: var(--jet);
+    font-family: roboto, sans-serif;
+  }
+  
+  h1 {
+    font-size: 4vw;
+    margin: 30px auto;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+    color: white;
+    font-weight: normal;
+    width: 60%;
+    max-width: 800px;
+  }
+  
+  .container {
+    background-color: var(--davys-gray);
+    margin: 20px auto;
+    padding: 15px 15px;
+    border-radius: 15px;
+    width: 60%;
+    max-width: 800px;
+  }
+  
+  #convert-btn {
+    width: 50%;
+    font-size: 3vw;
+    padding: 15px 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    background-color: var(--cambridge-blue);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #convert-btn:hover {
+    background-color: var(--light-green);
+  }
+  
+  #number {
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #output {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 5vmin;
+  }
+  
+  label {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
